@@ -26,9 +26,9 @@ next();
 //   res.send('Hello World from the server app.js')
 // });
 
-app.get('/about',middleware,(req, res) =>{
-    res.send('about')
-  });
+// app.get('/about',middleware,(req, res) =>{
+//     res.send('about')
+//   });
   app.get('/contact',(req, res) =>{
     res.send('contact')
   });
